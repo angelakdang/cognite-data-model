@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "cognite-data-model"
+version = "0.1.0"
+description = ""
+authors = ["Angela Dang Atkinson"]
+readme = "README.md"
+packages = [{include = "cognite_data_model"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^2.0.1"
+arrow = "^1.2.3"
+cognite-sdk = "^6.1.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
