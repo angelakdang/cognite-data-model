@@ -10,6 +10,7 @@ python = "^3.8"
 pandas = "^2.0.1"
 arrow = "^1.2.3"
 cognite-sdk = "^6.1.9"
+python-dotenv = "^1.0.0"
 
 
 [tool.poetry.group.dev.dependencies]
