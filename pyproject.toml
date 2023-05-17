@@ -4,7 +4,6 @@ version = "0.1.0"
 description = ""
 authors = ["Angela Dang Atkinson"]
 readme = "README.md"
-packages = [{include = "cognite_data_model"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
@@ -12,6 +11,9 @@ pandas = "^2.0.1"
 arrow = "^1.2.3"
 cognite-sdk = "^6.1.9"
 
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.3.1"
 
 [build-system]
 requires = ["poetry-core"]
