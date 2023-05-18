@@ -46,6 +46,7 @@ def handle(client: CogniteClient):
         print((hx.name, end_ms, u_value))
         # TODO: Write values back to CDF
         # TODO: Add backfilling functionality
+        # TODO: Maybe rather than taking the last hour, take the latest data point of the last u-value calc
 
 
 # Test handle function
