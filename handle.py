@@ -7,6 +7,7 @@ from utils import calculate_u_value, get_heat_exchanger_data
 
 def handle(client: CogniteClient):
     # Get heat exchanger data as HeatExchanger dataclass instance from yaml
+    # TODO: FDM Here is where we would query the HeatExchanger data model
     heat_exchangers = get_heat_exchanger_data()
 
     # Define time period. Default is last 24 hours.
@@ -16,6 +17,8 @@ def handle(client: CogniteClient):
 
     for hx in heat_exchangers:
         # Get list of external ids of the timeseries we need to retrieve
+        # TODO: FDM Maybe this next whole set of steps would be simplified by FDM so that we can query for all
+        #   timeseries from a data model instance
         ts_xids = [
             hx.coolWatSupplyTemp,
             hx.coolWatReturnTemp,
