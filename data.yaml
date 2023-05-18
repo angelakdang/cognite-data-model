@@ -1,0 +1,54 @@
+- name: HE1234
+  coolWatSupplyTemp: TI45678.PV
+  coolWatReturnTemp: TI78901.PV
+  processSupplyTemp: TI23456.PV
+  processReturnTemp: TI78903.PV
+  coolWatFlow: FI98765.PV
+  enabler: null
+  enablerLimit: 0
+  designArea: 533
+  subFlows: 1000
+
+- name: HE5678
+  coolWatSupplyTemp: TI12345.PV
+  coolWatReturnTemp: TI67890.PV
+  processSupplyTemp: TI34567.PV
+  processReturnTemp: TI89012.PV
+  coolWatFlow: FI12345.PV
+  enabler: null
+  enablerLimit: 0
+  designArea: 533
+  subFlows: 2000
+
+- name: HE9012
+  coolWatSupplyTemp: TI24456.PV
+  coolWatReturnTemp: TI78902.PV
+  processSupplyTemp: TI45679.PV
+  processReturnTemp: TI90123.PV
+  coolWatFlow: FI98766.PV
+  enabler: null
+  enablerLimit: 0
+  designArea: 1818
+  subFlows: 3000
+
+- name: HE3456
+  coolWatSupplyTemp: TI56789.PV
+  coolWatReturnTemp: TI01234.PV
+  processSupplyTemp: TI67891.PV
+  processReturnTemp: TI12346.PV
+  coolWatFlow: FI23456.PV
+  enabler: null
+  enablerLimit: 0
+  designArea: 2634
+  subFlows: 4000
+
+- name: HE7890
+  coolWatSupplyTemp: TI90124.PV
+  coolWatReturnTemp: TI23476.PV
+  processSupplyTemp: TI34568.PV
+  processReturnTemp: TI67892.PV
+  coolWatFlow: FI34567.PV
+  enabler: null
+  enablerLimit: 0
+  designArea: 5290
+  subFlows: 4700
