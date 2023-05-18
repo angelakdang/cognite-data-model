@@ -30,5 +30,5 @@ def get_cognite_client() -> CogniteClient:
 
 
 # Check to see if client works
-client = get_cognite_client()
-print(client.config)
+# client = get_cognite_client()
+# print(client.config)
