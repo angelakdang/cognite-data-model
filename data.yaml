@@ -26,8 +26,8 @@
   processSupplyTemp: TI45679.PV
   processReturnTemp: TI90123.PV
   coolWatFlow: FI98766.PV
-  enabler: null
-  enablerLimit: 0
+  enabler: SI02468.PV
+  enablerLimit: 600
   designArea: 1818
   subFlows: 3000
 

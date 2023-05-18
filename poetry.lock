@@ -635,7 +635,7 @@ files = [
 name = "pyyaml"
 version = "6.0"
 description = "YAML parser and emitter for Python"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 files = [
@@ -817,4 +817,4 @@ test = ["covdefaults (>=2.3)", "coverage (>=7.2.3)", "coverage-enable-subprocess
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8"
-content-hash = "4279c8ab64bd5c5c6389be6ce8bae6ad3af362971e98d4e8d7939978bdedc03d"
+content-hash = "62a43ed1a6aaadb67b77f2a787e0a95e0ceb6460a135b62b92ea532a40447af4"
